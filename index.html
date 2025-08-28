@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Card Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Memory Card Game</h1>
+        
+        <!-- Game controls -->
+        <div class="game-controls">
+            <button id="restart-btn">Restart Game</button>
+            <div class="score">Moves: <span id="moves">0</span></div>
+        </div>
+        
+        <!-- Game board -->
+        <div class="game-board" id="game-board">
+            <!-- Cards will be generated here by JavaScript -->
+        </div>
+        
+        <!-- Game over message -->
+        <div class="game-over" id="game-over">
+            <h2>Congratulations!</h2>
+            <p>You completed the game in <span id="final-moves">0</span> moves!</p>
+            <button id="play-again-btn">Play Again</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
